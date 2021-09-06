@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "hookskit": {
+      "signature": "fc627c0bcef8242c2238d5d76d9c3ee3",
+      "replaced": "file:../../"
+    }
+  }
+}
