@@ -1,14 +1,13 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/react'
 import { FC, Fragment } from 'react'
-import { useExample } from 'hookskit'
+import { useXf } from '@creatorqsf/use-xf'
 
 export const App: FC = () => {
-  const { state, increment, Component } = useExample()
+  const [state, setState] = useXf((n: number): string => n.toString(), 0)
   return (
     <Fragment>
-      <Component />
-      <p onClick={() => increment()}>{state}</p>
+      <p onClick={() => setState(10)}>{state}</p>
     </Fragment>
   )
 }
