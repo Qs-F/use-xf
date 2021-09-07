@@ -1,2 +1,1 @@
-export * from '/example'
-export * from '/value'
+export * from '/xf'
