@@ -1,5 +1,3 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react'
 import { FC, Fragment } from 'react'
 import { useXf } from '@creatorqsf/use-xf'
 
