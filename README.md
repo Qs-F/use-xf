@@ -50,7 +50,7 @@ import { useXf } from '@creatorqsf/use-xf'
 
 // ...
 
-  const [state, setState] = useXf( (n: number): "1st" | "2nd" | "3rd" | `${n}th` => {
+  const [state, setState] = useXf( (n: number): "1st" | "2nd" | "3rd" | `${number}th` => {
     switch (n) {
       case 1:
         return "1st"
